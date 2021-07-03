@@ -13,19 +13,45 @@ body, html {
 }
 
 body {
-  font-family: "PT Sans" sans-serif;
+  font-family: "PT Sans";
 }
 
 .header .top-line {
+  font-size: 12px;
   background-color: #000000;
   color: gray;
   padding: 14px 0;
+}
+.header .top-line a {
+  color: gray;
+}
+.header .top-line .number {
+  position: relative;
+}
+.header .top-line .number::before {
+  position: absolute;
+  left: -27px;
+  content: url("../img/toplinenumber.png");
+}
+.header .top-line__login {
+  position: relative;
+}
+.header .top-line__login::before {
+  position: absolute;
+  left: -22px;
+  top: 1px;
+  content: url("../img/ic_sharp-log-in.png");
 }
 .header .top-line__wrapper {
   display: flex;
   justify-content: space-between;
   width: 1110px;
   margin: 0 auto;
+}
+.header .header__main .header__logo {
+  font-family: "Post No Bills Jaffna";
+  font-size: 36px;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */
