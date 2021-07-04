@@ -22,8 +22,8 @@ body {
         background-color: #000000;
         color: gray;
         padding: 14px 0;
-        &__info {
-           
+        &__login:hover, &__registration:hover {
+            color: white;
         }
         .number {
             position: relative;
@@ -55,7 +55,7 @@ body {
         background-color:#0F0F0F;
         &-wrapper {
             height: 80px;
-            width: 1110px;
+            width: 1160px;
             margin: 0 auto;
             display: flex;
 
@@ -70,6 +70,8 @@ body {
             font-weight: 700;
         }
         .header__nav {
+            display: flex;
+            align-items: center;
             .header__nav-list {
                 .header__nav-list-item {
                     transition-property: background-color, color;
@@ -86,6 +88,38 @@ body {
                     } 
                 }
             }
+            .header__nav-icons {
+                margin-left: 20px;
+                &-item {
+                    display: inline-block;
+                    padding: 31px 20px;
+                }
+            }
         }
+    }
+}
+.first-screen {
+    display: flex;
+    justify-content: center;
+    background: url("../img/first-screen__back.png");
+    &__text {
+        margin-top: 80px;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 16px;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    &__logo {
+        width: 320px;
+        height: 320px;
+    }
+    &__wrapper {
+        width: 730px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 810px;
     }
 }
