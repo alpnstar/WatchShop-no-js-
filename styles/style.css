@@ -13,7 +13,33 @@ body, html {
 }
 
 body {
+  background-color: black;
   font-family: "PT Sans";
+  color: white;
+}
+
+.main-btn {
+  font-family: "PT Sans";
+  outline: none;
+  border: none;
+  color: white;
+  border: white 1px solid;
+  padding: 12px 28px;
+  background-color: transparent;
+  letter-spacing: 2px;
+}
+
+.main-h2-wrapper {
+  color: white;
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 36px;
+}
+.main-h2-wrapper ::after {
+  content: url("../img/Line 2.png");
+  display: block;
+  margin-left: 68px;
+  padding-bottom: 30px;
 }
 
 .header .top-line {
@@ -121,6 +147,47 @@ body {
   justify-content: center;
   align-items: center;
   height: 810px;
+}
+
+.collection {
+  display: flex;
+}
+.collection__new-season-img-wrapper {
+  background-color: #191B1C;
+  padding: 55px 25px;
+}
+.collection__new-season {
+  background-color: gray;
+  width: 1040px;
+}
+.collection__new-season-wrapper {
+  padding: 93px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.collection__new-season .collection__new-season-list-item {
+  font-family: "Playfair Display";
+  display: inline-block;
+}
+.collection__new-season .collection__new-season-list-item--center {
+  margin: 0 50px;
+}
+.collection__new-season .collection__new-season-list-item h3 {
+  margin: 25px 0 10px 0;
+}
+.collection .new-collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 100px;
+  width: 864px;
+  height: 730px;
+  background: url("../img/Rectangle 8.png");
+}
+.collection .new-collection__h2-wrapper ::after {
+  margin-left: 127px;
 }
 
 /*# sourceMappingURL=style.css.map */
