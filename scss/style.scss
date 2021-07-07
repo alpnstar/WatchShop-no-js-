@@ -101,6 +101,7 @@ body {
         .header__nav {
             display: flex;
             align-items: center;
+            
             .header__nav-list {
                 .header__nav-list-item {
                     transition-property: background-color, color;
@@ -109,11 +110,16 @@ body {
                     color: #969696;
                     text-transform: uppercase;
                     display: inline;
+                    a {
+                        color: #969696; 
+                    }
                     &:hover {
                         border-bottom: 5px gray solid;
                         transition: 0.1s;
                         background-color: #1F1F1F;
-                        color: #FFFFFF;
+                        a {
+                            color: #FFFFFF;
+                        }
                     } 
                 }
             }
@@ -219,15 +225,19 @@ body {
     }
 }
 .new-goods {
+    
     padding: 120px 0 150px 0;
     &__wrapper {
-        text-align: center;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
         margin: 0 auto;
         width: 1110px;
     }
     &__h2-wrapper {
+        
         ::after {
-            margin-left: -14px;
+            margin-left: 154px;
         }
     }
     &__products ul {
