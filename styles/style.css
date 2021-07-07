@@ -35,6 +35,7 @@ body {
   font-family: "Playfair Display";
   font-weight: 700;
   font-size: 36px;
+  text-transform: uppercase;
 }
 .main-h2-wrapper ::after {
   content: url("../img/Line 2.png");
@@ -208,6 +209,36 @@ body {
   font-size: 14px;
   line-height: 21px;
   margin-bottom: 61px;
+}
+
+.new-goods {
+  padding: 120px 0 150px 0;
+}
+.new-goods__wrapper {
+  text-align: center;
+  margin: 0 auto;
+  width: 1110px;
+}
+.new-goods__h2-wrapper ::after {
+  margin-left: -14px;
+}
+.new-goods__products ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.new-goods__product-list-item {
+  margin-top: 40px;
+}
+.new-goods__product-list-item:first-child {
+  margin-left: 0;
+}
+.new-goods__product-img-wrapper {
+  background-color: #191B1C;
+  padding: 55px 25px;
+}
+.new-goods h3 {
+  margin: 25px 0 10px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

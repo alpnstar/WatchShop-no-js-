@@ -33,6 +33,7 @@ body {
     font-family: "Playfair Display";
     font-weight: 700;
     font-size: 36px;
+    text-transform: uppercase;
     ::after {
         content: url("../img/Line\ 2.png");
         display: block;
@@ -215,5 +216,36 @@ body {
             line-height: 21px;
             margin-bottom: 61px;
         }
+    }
+}
+.new-goods {
+    padding: 120px 0 150px 0;
+    &__wrapper {
+        text-align: center;
+        margin: 0 auto;
+        width: 1110px;
+    }
+    &__h2-wrapper {
+        ::after {
+            margin-left: -14px;
+        }
+    }
+    &__products ul {
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+    }
+    &__product-list-item {
+        margin-top: 40px;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+    &__product-img-wrapper {
+        background-color: #191B1C;
+        padding: 55px 25px;
+    }
+    h3 {
+        margin: 25px 0 10px 0;
     }
 }
