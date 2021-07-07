@@ -249,3 +249,21 @@ body {
         margin: 25px 0 10px 0;
     }
 }
+.our-brands {
+    padding: 60px 0 80px 0;
+    background-color: #0F0F0F;
+    &__h2-wrapper {
+        ::after {
+            margin-right: 69px;
+        }
+    }
+    &__wrapper {
+        width: 1110px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    &__logos {
+        display: flex;
+        justify-content: space-between;
+    }
+}
