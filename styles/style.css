@@ -111,10 +111,15 @@ body {
   text-transform: uppercase;
   display: inline;
 }
+.header .header__main .header__nav .header__nav-list .header__nav-list-item a {
+  color: #969696;
+}
 .header .header__main .header__nav .header__nav-list .header__nav-list-item:hover {
   border-bottom: 5px gray solid;
   transition: 0.1s;
   background-color: #1F1F1F;
+}
+.header .header__main .header__nav .header__nav-list .header__nav-list-item:hover a {
   color: #FFFFFF;
 }
 .header .header__main .header__nav .header__nav-icons {
@@ -215,7 +220,6 @@ body {
   padding: 120px 0 150px 0;
 }
 .new-goods__wrapper {
-  text-align: center;
   margin: 0 auto;
   width: 1110px;
 }
