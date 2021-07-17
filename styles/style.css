@@ -14,7 +14,6 @@ body, html {
 }
 
 body {
-
   background-color: black;
   font-family: "PT Sans";
   color: white;
@@ -266,6 +265,77 @@ body {
 .our-brands__logos {
   display: flex;
   justify-content: space-between;
+}
+
+.footer {
+  padding: 74px 0 101px 0;
+  background-image: url("../img/footer.png");
+  background-position: center;
+}
+.footer button:hover {
+  transition: background-color 0.2s;
+  background-color: lightgray;
+  color: black;
+}
+.footer p {
+  font-size: 14px;
+  line-height: 21px;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1110px;
+  margin: 0 auto;
+}
+.footer__head {
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.footer__about {
+  width: 350px;
+}
+.footer__categories {
+  width: 275px;
+}
+.footer__categories-bottom-line {
+  margin-top: 20px;
+}
+.footer__categories-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__categories-btns {
+  background-color: #0F0F0F;
+  border: none;
+  color: white;
+  font-size: 14px;
+  padding: 10px 16px;
+}
+.footer__links {
+  width: 350px;
+}
+.footer__links form {
+  margin-top: 37px;
+  display: flex;
+}
+.footer__links form input {
+  padding: 10px;
+  border: none;
+  background: rgba(255, 255, 255, 0.4);
+}
+.footer__links form ::placeholder {
+  color: lightgray;
+}
+.footer__links form button {
+  background-color: #0F0F0F;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  font-size: 14px;
+  padding: 10px 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
