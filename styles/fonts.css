@@ -1,3 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&display=swap');
 @import url('http://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+@font-face {
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/PTSans-Regular.ttf') format('opentype'),
+         url('../fonts/PTSans-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'PT Sans';
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/PTSans-Bold.ttf') format('opentype'),
+         url('../fonts/PTSans-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/PlayfairDisplay-Regular.ttf') format('opentype'),
+         url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/PlayfairDisplay-Bold.ttf') format('opentype'),
+         url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: '';
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/PostNoBillsJaffna-Bold.ttf') format('opentype'),
+         url('../fonts/PostNoBillsJaffna-Bold.woff') format('woff');
+}
+
+
